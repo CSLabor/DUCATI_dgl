@@ -1,3 +1,17 @@
+
+A customized version of DGL for DUCATI (2022 SIGMOD Cycle-C submission)
+
+building from source:
+```
+mkdir build
+cd build
+cmake -DBUILD_TORCH=ON -DUSE_CUDA=ON -DCMAKE_C_COMPILER=/usr/local/bin/gcc7 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++7 ..
+make -j48
+cd ../python; python setup.py install
+```
+=============
+
+
 <p align="center">
   <img src="http://data.dgl.ai/asset/logo.jpg" height="200">
 </p>
