@@ -1,5 +1,5 @@
 
-A customized version of DGL for DUCATI (2023 SIGMOD Cycle-C submission)
+A customized version of DGL for DUCATI.
 
 building from source:
 ```
